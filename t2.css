@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins','sens-serif' ;
+}
+
+
+
+body{
+background-image: url(dirt-map-of-pollution-texture-plaster-Recovered.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+color: aliceblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    display: flex;
+    background: transparent;
+}
+.logo{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500px;
+     }
+     
+
+.menu a{
+     font-size: 20px;
+     text-decoration:none;
+     color: aliceblue;
+     font-weight: 700px;
+     margin-left: 35px;
+     transition: .6s;
+
+}     
+.menu a:hover ,
+.menu a.active {
+    color: #000000;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    height: 100vh;
+    padding-bottom: 15px;
+
+}
+ .son{
+    max-width: 600px;
+ }
+.son h1{
+font-size: 55px;
+font-weight: 700;
+}
+.son h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    padding-top: 10px;
+    
+}
+.son p{
+    font-size: 20px;
+    margin: 15px 0 40px;
+    width: 500px;
+}
+.h3-2{
+    position: relative;
+    bottom: 30px;
+}
+.p-2{
+    position: relative;
+    bottom: 25px;
+}
+.h3-3{
+    position: relative;
+    bottom: 50px;
+ 
+}
+.p-3{
+    position: relative;
+    bottom: 40px;
+}
+.son .b{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.b a{
+    position: relative;
+    text-decoration: none; 
+    width: 150px;
+    height: 100%;
+    background: #000000;
+    border: 2px solid  #000000;
+    border-radius: 8px;
+    display: inline-flex;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+}
+.b a:nth-child(2){
+    background: transparent;
+    color: #000000;
+}
+.b a:nth-child(2)::before{
+    background: rgb(0, 0, 0);
+}
+.b a:nth-child(2):hover{
+    color: #ffffff;
+}
+.b a:nth-child(1):hover{
+    color: #000000;
+}
+.b a:nth-child(1){
+    color: #ffffff;
+}
+.b a::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height:100%;
+   background-image: url(dirt-map-of-pollution-texture-plaster-Recovered.jpg);
+    z-index: -1 ;
+    transition: .5s ;
+    
+}
+.b a:hover::before{
+    width: 100% ;
+}
+
+.Hicon{
+    position: absolute;
+    bottom: 50px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Hicon a{
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #000000 ;
+    border-radius: 50%;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+     justify-content: center;
+     align-items: center;
+     z-index: 1;
+     overflow: hidden;
+     transition: .5s;
+}
+.Hicon a::before{
+    content:'' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:#000000 ;
+    z-index: -1 ;
+    transition: .5s ;
+
+}
+.Hicon a:hover::before{
+    width: 100%;
+    
+}
+.Hicon a:hover{
+    color: #ffffff;
+}
